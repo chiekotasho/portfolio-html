@@ -1,0 +1,224 @@
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body{
+    background-color: #f5f5dd;
+    margin: 0px;
+}
+header{
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 5px 0px 5px;
+}
+.logo{
+    float: left;
+}
+form{
+    float: right;
+}
+.main{
+    width: 960px;
+    height: auto;
+    margin-right: auto;
+    margin-left : auto;    
+}
+.main_pic{
+    width: 100%;
+}
+header ul{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+header li{
+    flex: 1;
+    list-style-type: none;
+    text-align: center;
+    margin-top:10px;
+    font-size:15px;
+}
+.hwrapper{
+    width: 100%;
+    background-color: white;
+    border-bottom: solid 1px #cccccc;
+}
+header a{
+    background-color: white;
+    color: #664433;
+    text-align: center;
+    text-decoration: none;
+}
+header li+li{
+    border-left: 1px solid #cccccc;
+}
+header p{
+    color: #664433;
+    clear: left;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.nav_box1{
+    background-color: white;
+    float: left;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+}
+.nav_box2{
+    background-color: white;
+    clear: left;
+    float: left;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+}
+h2{
+    font-size:15px;
+    border-radius: 19px;
+    background-color: #99bb22;
+    color: white;
+    background-image: url("dish.png");
+    background-repeat: no-repeat;
+    padding: 5px 20px 5px 40px;
+    background-position: 15px;
+    margin-top: 0;
+}
+nav li{
+    list-style-type: none;    
+}
+nav a{
+    background-color: white;
+    color: #664433;
+    background-image: url("arrow.png");
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 20px;
+    background-position: 0 13px;
+    padding-top: 8px;
+    display:block;
+    text-decoration: none;
+    font-size:15px;
+}
+nav li+li{
+    border-top: 1px dotted #cccccc;
+}
+nav ul{
+    padding-left: 10px;
+    margin: 0;
+}
+#wrapper{
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+nav{
+    width: 20%;
+    float: left;
+}
+article{
+    width: 65%
+}
+aside{
+    width: 15%;
+}
+section{
+    background-color: white;
+    margin: 10px 20px 10px 0px;
+    padding: 10px;
+}
+.art_five{
+    display: flex;
+}
+figure{
+    text-align: center;
+    width: 20%;
+    margin: 10px;
+}
+figcaption{
+    text-align: center;
+    font-size: 10px;
+}
+section p{
+    margin: 0;
+}
+.continued{
+    clear: right;
+    float: right;
+    color: #fc8833;
+    background-image: url("arrow.png");
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 16px;
+    text-decoration: none;
+    background-position: 0 3px;
+    font-size: 13px;
+    margin:10px 10px 20px 0px ;
+}
+.topic{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+section p{
+    width: 55%;
+    font-size:13px;
+    margin: 0px 5px 0px 5px;
+    float: right;
+}
+.push1{
+    float: left;
+    width: 40%;
+    margin-bottom:10px;
+}
+.push2{
+    float:left;
+    clear: left;
+    width: 40%;
+    margin-top:10px;
+    margin-right: 0px;
+}
+h3{
+    font-size: 13px;
+    color: #664433;
+    float: left;
+    margin: 5px 0px 5px 30px;
+}
+.a_side{
+    margin: 10px 0px 10px 0px;
+}
+.a_side img{
+    width:135px;
+}
+footer {
+    border-top: solid 1px #cccccc;
+    background-color: white;
+}
+footer ul{ 
+    width: 600px;
+    font-size:13px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left : auto;
+    display: flex;
+}
+footer li{
+    background-color: white;
+    flex: 1;
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: #664433;
+}
+footer li+li{
+    border-left: 1px solid #cccccc;
+}
+.foot_copy {
+    font-size:12px;
+    margin:0 auto;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #cccccc;
+}
